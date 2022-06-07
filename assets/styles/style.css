@@ -1,0 +1,192 @@
+
+
+@font-face {
+    font-family: 'Stolzl'; 
+    src: url('assets/font/Stolzl-Regular.ttf');
+}
+
+body {
+   font-family: Stolzl, monospace;
+   padding: 0;
+   margin: 0;
+   background-color:#f5f6fa !important;
+}
+
+html,body {scroll-behavior: smooth;}
+
+a {text-decoration: none;}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Header CSS */
+header {
+   display: inline;
+}
+
+header nav li {
+   display: inline;   
+}
+
+nav {
+   background-color:#5666ad !important;
+   padding: 1px;
+   position: sticky;
+   top: 0;
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-left: 10px ;
+   }
+   
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-color:#5666ad !important;
+   text-align: center;
+   color: white;
+}
+
+.jumbotron img {
+   width: 50%;
+   max-width: 300px;
+   min-width: 200px;
+}
+
+#content {
+  float: left;
+  width: 60%;
+  background: white;
+}
+
+hr {
+    width: 80%;
+    color: #4c5b9e ;
+}
+
+h2, h3 {
+   color: #4c5b9e;
+}
+
+/* Main CSS */
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+#fitur, #sosial, #unduh {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#sosial li {
+    display: inline;
+}
+
+#sosial a {
+    text-decoration: none;
+    color: #4c5b9e ;
+}
+
+#unduh {
+    color:#fff !important; background-color:#5666ad !important;
+}
+#unduh h2 {
+    color: #fff !important;
+}
+#unduh img {
+    border-radius: 10px;
+}
+
+.card {
+   padding: 20px;
+}
+
+/* Aside CSS */
+
+
+aside {
+  float: right;
+  width: 40%;
+  padding-left: 20px;
+  background: white;
+}
+
+#feedback {
+    color:#fff !important; background-color:#5666ad !important;
+    text-align: center;
+}
+#feedback h2 {
+    color: #fff !important;
+}
+#feedback a {
+text-decoration: none;
+    padding: 20px;
+    color: white;
+    background-color:#3b477b !important;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.profile header {
+   text-align: center;
+}
+
+aside li {
+text-align: center;
+    display: inline;
+    color: #4c5b9e ;
+}
+
+aside .sosmed {
+    text-align: center;
+}
+
+.profile img {
+   width: 50%;
+   max-width: 120px;
+   min-width: 110px;
+   border-radius: 100%;
+}
+
+.profile table tr {
+    text-align: left;
+}
+.profile table th {
+    color:#25347E ;
+}
+/* Footer CSS */
+footer {
+   padding: 20px;
+   color: white;
+   background-color:#5666ad !important;
+   text-align: center;
+   font-weight: bold;
+}
+
+footer li {
+        display: inline;
+}
+
+footer li a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 765px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
